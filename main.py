@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import auth,customers,unnatiClients
+from routers import customers,unnatiClients
 import models
 from database import engine
 
